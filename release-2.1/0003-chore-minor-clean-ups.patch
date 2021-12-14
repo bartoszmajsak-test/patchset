@@ -1,0 +1,36 @@
+From 44ecf8a56f96982f30fe5a9987e49ed8ae6ab0c2 Mon Sep 17 00:00:00 2001
+From: Bartosz Majsak <bartosz.majsak@gmail.com>
+Date: Mon, 13 Dec 2021 11:24:04 +0100
+Subject: chore: minor clean-ups
+
+---
+ .golangci.yml | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/.golangci.yml b/.golangci.yml
+index 6b45260..ada708d 100644
+--- a/.golangci.yml
++++ b/.golangci.yml
+@@ -65,14 +65,14 @@ linters:
+   disable:
+     - exhaustivestruct
+     - forbidigo
+-    - gochecknoinits # k8s/istio generated APIs are using init()
+-    - gochecknoglobals # FIXME https://github.com/Maistra/istio-workspace/issues/479
+-    - gocognit # FIXME https://github.com/Maistra/istio-workspace/issues/478
+-    - gofmt # We use goimports and when using them both leads to contradicting errors
++    - gochecknoinits # asdasdaaasdasdasdasdasdasdasdsdadasdasdasdasdasdasdadadasdasdasdasdasdasdadasdasdasdasdasdadasdasdasdasdasd
++    - gochecknoglobals 
++    - gocognit 
++    - gofmt 
+     - gofumpt
+     - gomnd
+     - paralleltest
+-    - wsl # FIXME https://github.com/Maistra/istio-workspace/issues/481
++    - wsl 
+ 
+ run:
+   deadline: 10m
+-- 
+2.31.1
+
