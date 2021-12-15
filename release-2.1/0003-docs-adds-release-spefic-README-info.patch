@@ -1,0 +1,24 @@
+From 30e5b2609d676c24f269c69b7b5a204b7a7a7cc3 Mon Sep 17 00:00:00 2001
+From: bartoszmajsak-test <bartoszmajsak+test@gmail.com>
+Date: Wed, 15 Dec 2021 10:14:05 +0100
+Subject: docs: adds release-spefic README info
+
+---
+ README.adoc | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/README.adoc b/README.adoc
+index 5524acf..84851d9 100644
+--- a/README.adoc
++++ b/README.adoc
+@@ -22,3 +22,7 @@ Run `init.sh` to customize the project.
+ == Other goodies
+ 
+ GitHub issues / PR templates (don't forget to customize the content!)
++
++Additional info
++
++Custom release-2.1
+-- 
+2.31.1
+
