@@ -1,0 +1,22 @@
+From 45f96e9126692a94e276195468a36b9b91bee1fd Mon Sep 17 00:00:00 2001
+From: bartoszmajsak-test <bartoszmajsak+test@gmail.com>
+Date: Wed, 15 Dec 2021 14:20:36 +0100
+Subject: chore: adjusts README
+
+---
+ README.adoc | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/README.adoc b/README.adoc
+index 5524acf..c1a3cbc 100644
+--- a/README.adoc
++++ b/README.adoc
+@@ -22,3 +22,5 @@ Run `init.sh` to customize the project.
+ == Other goodies
+ 
+ GitHub issues / PR templates (don't forget to customize the content!)
++
++Release 2.1
+-- 
+2.31.1
+
