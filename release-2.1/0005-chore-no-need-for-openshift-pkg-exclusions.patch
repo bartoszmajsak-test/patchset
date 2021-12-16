@@ -1,0 +1,26 @@
+From 19fc9a133d6b1f9d53ac23622fb5cbc47d593c80 Mon Sep 17 00:00:00 2001
+From: bartoszmajsak-test <bartoszmajsak+test@gmail.com>
+Date: Thu, 16 Dec 2021 17:09:19 +0100
+Subject: chore: no need for openshift pkg exclusions
+
+---
+ .golangci.yml | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/.golangci.yml b/.golangci.yml
+index fbfdd05..8e34dae 100644
+--- a/.golangci.yml
++++ b/.golangci.yml
+@@ -99,9 +99,6 @@ issues:
+     - path: pkg/log
+       linters:
+         - depguard
+-    - path: pkg/openshift/
+-      linters:
+-        - dupl 
+     - path: pkg/apis/
+       linters:
+         - stylecheck
+-- 
+2.31.1
+
