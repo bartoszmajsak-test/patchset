@@ -1,0 +1,22 @@
+From bc45c81fb81e9bbe2b2c814151cc87022f0d9e68 Mon Sep 17 00:00:00 2001
+From: Bartosz Majsak <bartosz.majsak@gmail.com>
+Date: Thu, 16 Dec 2021 13:12:14 +0100
+Subject: docs: release 2.1 README
+
+---
+ README.adoc | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.adoc b/README.adoc
+index 5524acf..04677ff 100644
+--- a/README.adoc
++++ b/README.adoc
+@@ -1,4 +1,4 @@
+-= Template Repository - Golang
++= Release 2.1
+ 
+ Basic structure for cli-based golang projects.
+ 
+-- 
+2.31.1
+
