@@ -1,42 +1,22 @@
-From 326499377c4f2c889a5f83dd0ad48e9414211d7e Mon Sep 17 00:00:00 2001
+From b6aa2e394c098ceb7263578b45146b31dc047221 Mon Sep 17 00:00:00 2001
 From: Bartosz Majsak <bartosz.majsak@gmail.com>
 Date: Thu, 16 Dec 2021 14:13:51 +0100
 Subject: docs: reworked README for the release 2.1
 
 ---
- README.adoc | 25 ++++++++++++++++++++++++-
- 1 file changed, 24 insertions(+), 1 deletion(-)
+ README.adoc | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/README.adoc b/README.adoc
-index 86cf17e..04677ff 100644
+index b48fecf..7969061 100644
 --- a/README.adoc
 +++ b/README.adoc
-@@ -1 +1,24 @@
--= Conflict
+@@ -1,4 +1,4 @@
+-= Upstream
 += Release 2.1
-+
-+Basic structure for cli-based golang projects.
-+
-+== Code
-+
-+- Folder structure
-+- Sample `go.mod` configuration
-+- `Makefile`
-+- `.editorconfig`
-+- `.gitignore`
-+
-+== Services
-+
-+- https://circleci.com/[CircleCI]
-+- https://dependabot.com[Dependabot]
-+
-+== Setup
-+
-+Run `init.sh` to customize the project.
-+
-+== Other goodies
-+
-+GitHub issues / PR templates (don't forget to customize the content!)
+ 
+ Basic structure for cli-based golang projects.
+ 
 -- 
 2.31.1
 
