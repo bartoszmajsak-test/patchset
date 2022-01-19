@@ -1,0 +1,26 @@
+From a0663e316377ac90f7f686f96fcd70fd052023d3 Mon Sep 17 00:00:00 2001
+From: bartoszmajsak <bartosz.majsak@gmail.com>
+Date: Wed, 19 Jan 2022 15:49:22 +0100
+Subject: README bla
+
+---
+ README.adoc | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+diff --git a/README.adoc b/README.adoc
+index 876f462..c2fcbf2 100644
+--- a/README.adoc
++++ b/README.adoc
+@@ -7,8 +7,7 @@ Basic structure for cli-based golang projects.
+ - Folder structure
+ - Sample `go.mod` configuration
+ - `Makefile`
+-- `.editorconfig`
+-- `.gitignore`
++
+ 
+ == Setup
+ 
+-- 
+2.31.1
+
