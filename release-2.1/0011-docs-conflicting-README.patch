@@ -1,19 +1,19 @@
-From e385f201b113d3ab762ca0171559f486410edcbb Mon Sep 17 00:00:00 2001
+From 9a1f505f22cebd1d7e934fd728542ba61ca3f152 Mon Sep 17 00:00:00 2001
 From: bartoszmajsak <bartosz.majsak@gmail.com>
 Date: Fri, 7 Jan 2022 13:37:57 +0100
 Subject: docs: conflicting README?
 
 ---
- README.adoc | 12 ++++++++----
- 1 file changed, 8 insertions(+), 4 deletions(-)
+ README.adoc | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
 
 diff --git a/README.adoc b/README.adoc
-index 04677ff..876f462 100644
+index 2f106f8..a92382f 100644
 --- a/README.adoc
 +++ b/README.adoc
-@@ -10,15 +10,19 @@ Basic structure for cli-based golang projects.
- - `.editorconfig`
- - `.gitignore`
+@@ -15,12 +15,16 @@ Test all the things
+ 
+ linters \o/
  
 +== Setup
 +
@@ -22,19 +22,14 @@ index 04677ff..876f462 100644
  == Services
  
  - https://circleci.com/[CircleCI]
-+- https://circleci.com/[CircleCI]
-+- https://circleci.com/[CircleCI]
-+- https://dependabot.com[Dependab
-+- https://dependabot.com[Dependab
+ - prow
  - https://dependabot.com[Dependabot]
  
 -== Setup
--
--Run `init.sh` to customize the project.
--
- == Other goodies
++== Other goodies
  
- GitHub issues / PR templates (don't forget to customize the content!)
+-Run `init.sh` to customize the project.
++GitHub issues / PR templates (don't forget to customize the content!)
 -- 
 2.31.1
 
