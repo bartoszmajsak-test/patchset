@@ -1,28 +1,25 @@
-From 705f2878237eb99c1aefe787300d8240f309e819 Mon Sep 17 00:00:00 2001
+From 5151721abb74c9b5804f164fbdaefca5392d95f7 Mon Sep 17 00:00:00 2001
 From: bartoszmajsak <bartosz.majsak@gmail.com>
 Date: Thu, 20 Jan 2022 16:09:06 +0100
 Subject: README blabla
 
 ---
- README.adoc | 5 +++++
- 1 file changed, 5 insertions(+)
+ README.adoc | 2 --
+ 1 file changed, 2 deletions(-)
 
 diff --git a/README.adoc b/README.adoc
-index c2fcbf2..26abb10 100644
+index b8baa6b..f30ef87 100644
 --- a/README.adoc
 +++ b/README.adoc
-@@ -7,6 +7,11 @@ Basic structure for cli-based golang projects.
- - Folder structure
- - Sample `go.mod` configuration
- - `Makefile`
-+- `Makefile`
-+- `Makefile`
-+- `Makefile`
-+- `Makefile`
-+- `Makefile`
+@@ -5,8 +5,6 @@ Basic structure for cli-based golang projects.
+ == Code
  
+ - no-code
+-- or code
+-- or YAML
  
  == Setup
+ 
 -- 
 2.31.1
 
