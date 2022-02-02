@@ -1,0 +1,28 @@
+From 3ecc18b9512dcc5b19a83b80bdb031fb8fbd566b Mon Sep 17 00:00:00 2001
+From: bartoszmajsak <bartosz.majsak@gmail.com>
+Date: Tue, 25 Jan 2022 15:55:32 +0100
+Subject: bla README
+
+---
+ README.adoc | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+diff --git a/README.adoc b/README.adoc
+index 26abb10..6af08c4 100644
+--- a/README.adoc
++++ b/README.adoc
+@@ -8,10 +8,7 @@ Basic structure for cli-based golang projects.
+ - Sample `go.mod` configuration
+ - `Makefile`
+ - `Makefile`
+-- `Makefile`
+-- `Makefile`
+-- `Makefile`
+-- `Makefile`
++
+ 
+ 
+ == Setup
+-- 
+2.31.1
+
