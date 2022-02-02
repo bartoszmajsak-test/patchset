@@ -1,0 +1,28 @@
+From f55a82f4a69b9329c8ae6b64fe2ff80d4d16704c Mon Sep 17 00:00:00 2001
+From: bartoszmajsak-test <bartoszmajsak+test@gmail.com>
+Date: Thu, 16 Dec 2021 17:09:07 +0100
+Subject: chore: no need for k8s pkg exclusions
+
+---
+ .golangci.yml | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+diff --git a/.golangci.yml b/.golangci.yml
+index 6b45260..fbfdd05 100644
+--- a/.golangci.yml
++++ b/.golangci.yml
+@@ -101,10 +101,7 @@ issues:
+         - depguard
+     - path: pkg/openshift/
+       linters:
+-        - dupl
+-    - path: pkg/k8s/
+-      linters:
+-        - dupl
++        - dupl 
+     - path: pkg/apis/
+       linters:
+         - stylecheck
+-- 
+2.31.1
+

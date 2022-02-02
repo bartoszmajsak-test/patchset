@@ -1,0 +1,25 @@
+From f30b78c999ee675a9d0bc8187d081a5f57d4110e Mon Sep 17 00:00:00 2001
+From: bartoszmajsak <bartosz.majsak@gmail.com>
+Date: Thu, 23 Dec 2021 11:36:48 +0100
+Subject: chore: cleans up linter config #1
+
+---
+ .golangci.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/.golangci.yml b/.golangci.yml
+index 4277d3e..29f1470 100644
+--- a/.golangci.yml
++++ b/.golangci.yml
+@@ -67,7 +67,7 @@ linters:
+     - forbidigo
+     - gochecknoinits # k8s/istio generated APIs are using init()
+     - gochecknoglobals # FIXME https://github.com/Maistra/istio-workspace/issues/479
+-    - gocognit # FIXME https://github.com/Maistra/istio-workspace/issues/478
++    - gocognit
+     - gofmt # We use goimports and when using them both leads to contradicting errors
+     - gofumpt
+     - gomnd
+-- 
+2.31.1
+
