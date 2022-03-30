@@ -1,0 +1,27 @@
+From b598dd9ca7e3fd1544887e29cdd102e5dfad2a6d Mon Sep 17 00:00:00 2001
+From: bartoszmajsak <bartosz.majsak@gmail.com>
+Date: Fri, 7 Jan 2022 12:34:59 +0100
+Subject: feat(cmd): minor tweaks in version output
+
+---
+ pkg/cmd/version/cmd.go | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/pkg/cmd/version/cmd.go b/pkg/cmd/version/cmd.go
+index d2f30d2..cc9d790 100644
+--- a/pkg/cmd/version/cmd.go
++++ b/pkg/cmd/version/cmd.go
+@@ -13,8 +13,8 @@ import (
+ func NewCmd() *cobra.Command {
+ 	return &cobra.Command{
+ 		Use:          "version",
+-		Short:        "Prints the version number of tool",
+-		Long:         "All software has versions. This is ours",
++		Short:        "Prints the version number of tool.",
++		Long:         "All software has versions. This is ours.",
+ 		SilenceUsage: true,
+ 		RunE: func(cmd *cobra.Command, args []string) error {
+ 			PrintVersion()
+-- 
+2.31.1
+

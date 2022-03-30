@@ -1,0 +1,22 @@
+From b6aa2e394c098ceb7263578b45146b31dc047221 Mon Sep 17 00:00:00 2001
+From: Bartosz Majsak <bartosz.majsak@gmail.com>
+Date: Thu, 16 Dec 2021 14:13:51 +0100
+Subject: docs: reworked README for the release 2.1
+
+---
+ README.adoc | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.adoc b/README.adoc
+index b48fecf..7969061 100644
+--- a/README.adoc
++++ b/README.adoc
+@@ -1,4 +1,4 @@
+-= Upstream
++= Release 2.1
+ 
+ Basic structure for cli-based golang projects.
+ 
+-- 
+2.31.1
+
