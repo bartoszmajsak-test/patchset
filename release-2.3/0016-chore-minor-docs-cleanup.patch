@@ -1,0 +1,24 @@
+From 39d804068069f9445b67d941a6fdd9e728f34cd1 Mon Sep 17 00:00:00 2001
+From: bartoszmajsak <bartosz.majsak@gmail.com>
+Date: Mon, 28 Mar 2022 16:02:57 +0200
+Subject: chore: minor "docs" cleanup
+
+---
+ README.adoc | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/README.adoc b/README.adoc
+index 14bd53e..a4bfd49 100644
+--- a/README.adoc
++++ b/README.adoc
+@@ -15,7 +15,6 @@ Run `init.sh` to customize the project.
+ == Services
+ 
+ - https://circleci.com/[CircleCI]
+-- prow
+ - https://dependabot.com[Dependabot]
+ 
+ == Other goodies
+-- 
+2.31.1
+

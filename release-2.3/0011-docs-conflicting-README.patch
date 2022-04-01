@@ -1,0 +1,35 @@
+From 4137a333cb9ed99dfe96a8a697e5067e643682d2 Mon Sep 17 00:00:00 2001
+From: bartoszmajsak <bartosz.majsak@gmail.com>
+Date: Fri, 7 Jan 2022 13:37:57 +0100
+Subject: docs: conflicting README?
+
+---
+ README.adoc | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+diff --git a/README.adoc b/README.adoc
+index 2f32ada..15580a8 100644
+--- a/README.adoc
++++ b/README.adoc
+@@ -15,12 +15,17 @@ Test all the things
+ 
+ linters \o/
+ 
++== Setup
++
++Run `init.sh` to customize the project.
++
+ == Services
+ 
+ - https://circleci.com/[CircleCI]
+ - prow
+ - https://dependabot.com[Dependabot]
+ 
+-== Setup
++== Other goodies
+ 
+ Run `init.sh` to customize the project. You can delete this file afterwards.
++GitHub issues / PR templates (don't forget to customize the content!)
+-- 
+2.31.1
+
