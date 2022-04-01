@@ -1,33 +1,21 @@
-From 6c3b44bbd307d24be2e98cbdeb13dc2e1d1820e4 Mon Sep 17 00:00:00 2001
+From 39d804068069f9445b67d941a6fdd9e728f34cd1 Mon Sep 17 00:00:00 2001
 From: bartoszmajsak <bartosz.majsak@gmail.com>
 Date: Mon, 28 Mar 2022 16:02:57 +0200
 Subject: chore: minor "docs" cleanup
 
 ---
- README.adoc | 6 ------
- 1 file changed, 6 deletions(-)
+ README.adoc | 1 -
+ 1 file changed, 1 deletion(-)
 
 diff --git a/README.adoc b/README.adoc
-index b9a037e..918ac97 100644
+index 14bd53e..a4bfd49 100644
 --- a/README.adoc
 +++ b/README.adoc
-@@ -8,8 +8,6 @@ Basic structure for cli-based golang projects.
- - Sample `go.mod` configuration
- - `Makefile`
- 
--
--
- == Setup
- 
- Run `init.sh` to customize the project.
-@@ -17,10 +15,6 @@ Run `init.sh` to customize the project.
+@@ -15,7 +15,6 @@ Run `init.sh` to customize the project.
  == Services
  
  - https://circleci.com/[CircleCI]
--- https://circleci.com/[CircleCI]
--- https://circleci.com/[CircleCI]
--- https://dependabot.com[Dependab
--- https://dependabot.com[Dependab
+-- prow
  - https://dependabot.com[Dependabot]
  
  == Other goodies
