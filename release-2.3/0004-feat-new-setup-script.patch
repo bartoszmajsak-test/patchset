@@ -1,0 +1,22 @@
+From a9393b10c05923afa366e27b00ba728c5b2e0d20 Mon Sep 17 00:00:00 2001
+From: Bartosz Majsak <bartosz.majsak@gmail.com>
+Date: Mon, 9 May 2022 10:42:17 +0200
+Subject: feat: new setup script
+
+---
+ README.adoc | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.adoc b/README.adoc
+index 551f87a..6f92014 100644
+--- a/README.adoc
++++ b/README.adoc
+@@ -23,4 +23,4 @@ linters \o/
+ 
+ == Setup
+ 
+-Run `init.sh` to customize the project. You can delete this file afterwards.
++$ make setup
+-- 
+2.31.1
+
