@@ -1,0 +1,23 @@
+From d0665f2b21a896cf2530d43b3b0ab0841101b352 Mon Sep 17 00:00:00 2001
+From: bartoszmajsak <bartosz.majsak@gmail.com>
+Date: Mon, 9 May 2022 10:39:04 +0200
+Subject: chore: excludes junit.xml
+
+---
+ .gitignore | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/.gitignore b/.gitignore
+index 545f05c..37d64e7 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,5 +1,6 @@
+ # Test results
+ *ginkgo-test-results.xml
++junit.xml
+ 
+ # Temporary Files
+ dist/
+-- 
+2.31.1
+
