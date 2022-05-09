@@ -1,0 +1,25 @@
+From efc5598665495f7991a0e7043a67af82057e55e1 Mon Sep 17 00:00:00 2001
+From: bartoszmajsak <bartosz.majsak@gmail.com>
+Date: Mon, 9 May 2022 09:40:12 +0200
+Subject: chore: adds more to README description
+
+---
+ README.adoc | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.adoc b/README.adoc
+index 0bc5963..551f87a 100644
+--- a/README.adoc
++++ b/README.adoc
+@@ -11,7 +11,7 @@ Basic structure for cli-based golang projects.
+ 
+ == Other goodies
+ 
+-Test setup
++Test setup based on Go Test and Ginkgo.
+ 
+ linters \o/
+ 
+-- 
+2.31.1
+
